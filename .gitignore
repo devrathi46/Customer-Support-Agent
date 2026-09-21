@@ -33,3 +33,6 @@ eval/outputs/
 # raw dataset download
 archive.zip
 *.zip
+
+# report kept local only
+report/
