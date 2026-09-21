@@ -1,0 +1,30 @@
+[
+  {
+    "name": "software_bug_glitch",
+    "description": "The customer reports unexpected software behavior, a UI glitch, app crash, or a specific bug (e.g. the iOS 11 'I' autocorrect glitch, apps closing unexpectedly, keyboard/text-input defects) not primarily about performance or connectivity."
+  },
+  {
+    "name": "performance_battery",
+    "description": "Complaints about the device or OS being slow/laggy, freezing, or about battery drain/battery life, typically attributed to a recent iOS/app update."
+  },
+  {
+    "name": "update_installation_issue",
+    "description": "Problems specifically with installing, downloading, or being prompted about an iOS or app update/version (stuck installs, update won't download, confusion about which version to install)."
+  },
+  {
+    "name": "connectivity_hardware_issue",
+    "description": "WiFi/Bluetooth/cellular connectivity problems, or a physical hardware malfunction (screen, Touch ID/Face ID, water damage, speaker, camera)."
+  },
+  {
+    "name": "account_purchase_billing",
+    "description": "Apple ID/account access issues, in-app purchase or subscription charges, refund requests, App Store/Apple Music/iCloud billing questions, or suspected fraudulent/spam charges."
+  },
+  {
+    "name": "repair_warranty_request",
+    "description": "The customer wants a physical repair, hardware replacement, or warranty service, or is asking to move to a private channel (DM/phone) for account-specific help."
+  },
+  {
+    "name": "general_inquiry_other",
+    "description": "How-to questions, feature/compatibility questions, or any message that doesn't clearly report a problem, purchase issue, or repair request — includes general feedback/thanks."
+  }
+]

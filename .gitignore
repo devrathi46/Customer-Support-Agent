@@ -1,0 +1,35 @@
+# data
+# raw dataset is large (~500MB) and user-provided locally — never commit it
+data/raw/*
+!data/raw/.gitkeep
+# processed outputs (~36MB for the chosen brand: threads/holdout/index) ARE
+# committed so graders can reproduce headline results without the raw CSV —
+# see scripts/run_pipeline.sh. Only ignore regenerable scratch from other
+# brands explored along the way.
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/AppleSupport_*
+# eda outputs (brand ranking, intent taxonomy) are small deliverables — keep tracked
+# golden set + labelling notes + judge-agreement report are deliverables — keep tracked
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# os
+.DS_Store
+
+# misc outputs
+eval/outputs/
+*.log
+
+# raw dataset download
+archive.zip
+*.zip
